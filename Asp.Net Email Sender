@@ -1,7 +1,7 @@
 var from = "sitoulabibash666@gmail.com";
 var to = "aanchalghimire18@gmail.com";
 var cc = "amresh.sc03@gmail.com";
-var email = _mai.SendEmail(from, to, cc, "Your user created in metlife", "hello now you are the member of met life enjoy it ");
+var email = _mai.SendEmail(from, to, cc, "Your user created in ---", "hello now you are the member of ---- life enjoy it ");
 
 
 
@@ -23,7 +23,7 @@ var email = _mai.SendEmail(from, to, cc, "Your user created in metlife", "hello 
                 using (var client = new MailKit.Net.Smtp.SmtpClient())
                 {
                     client.Connect("smtp.gmail.com", 587, false); 
-                    client.Authenticate("sitoulabibash666@gmail.com", "unmfwruqgvwqvpmm");  /// create app password of email 
+                    client.Authenticate("sitoulabibash666@gmail.com", "sduafcasugauasfhafsa");  /// create app password of email 
 
                     client.Send(message);
                     client.Disconnect(true);
