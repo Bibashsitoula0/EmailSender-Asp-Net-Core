@@ -1,3 +1,5 @@
+ <PackageReference Include="MailKit" Version="3.3.0" />  
+
 var from = "sitoulabibash666@gmail.com";
 var to = "aanchalghimire18@gmail.com";
 var cc = "amresh.sc03@gmail.com";
